@@ -8,7 +8,6 @@ fn main() {
         .read_line(&mut _repo_name)
         .expect("Failed to read line");
         
-    println!("{_repo_name}");
     
     let url = format!("https://github.com/{}?tab=repositories", _repo_name.trim());
 
