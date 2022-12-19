@@ -18,7 +18,6 @@ fn main() {
         .text()
         .unwrap();
         
-        let mut repo_name = String::new();
 
         let document = scraper::Html::parse_document(&response);
         
